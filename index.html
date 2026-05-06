@@ -2,14 +2,13 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Font Showcase</title>
+<title>Wolf Site</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Special+Elite&display=swap" rel="stylesheet">
 
 <style>
-/* your button styles */
+
+
 .fancy-btn {
   display: inline-block;
   padding: 15px 30px;
@@ -21,6 +20,7 @@
   border-radius: 8px;
   transition: all 0.3s ease;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  margin: 10px;
 }
 
 .fancy-btn:hover {
@@ -28,22 +28,44 @@
   box-shadow: 0 8px 18px rgba(0,0,0,0.3);
 }
 
-.fancy-btn:active {
-  transform: scale(0.98);
+
+.button-container {
+  text-align: center;
+  margin: 20px 0;
 }
 
-/* rest of your styles... */
+
 body {
   margin: 0;
   background: #5E7192;
+  text-align: center; 
 }
+
+h1 {
+  font-family: Piedra;
+  font-size: 40pt;
+  text-shadow: 3px 3px 1px blue;
+}
+
+h2 {
+  font-family: "Special Elite";
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+#banner, #header {
+  max-width: 100%;
+  height: auto;
+}
+
 </style>
 </head>
 
 <body>
 
-<!-- Buttons -->
-<div style="text-align:center; margin:20px;">
+
+<div class="button-container">
   <button class="fancy-btn" onclick="window.location.href='https://ethaneunlv.github.io/Javascript-Addition-Website/'">
     Visit Font Showcase
   </button>
@@ -53,19 +75,15 @@ body {
   </button>
 </div>
 
-<!-- Banner -->
-<div>
-  <img src="Wolf in Snow Banner.png" id="banner">
-</div>
+<img src="Wolf in Snow Banner.png" id="banner">
 
 <h1>The Wolf in Sheep's Clothing</h1>
 
-<!-- Hero section -->
 <div id="hero">
   <img src="moeinium-ai-generated-9008297_1280.jpg" id="header">
 
   <h2>
-    A Wolf found great difficulty in getting at the sheep...
+    A Wolf found great difficulty in getting at the sheep owing to the vigilance of the shepherd...
   </h2>
 </div>
 
